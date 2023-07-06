@@ -1,0 +1,37 @@
+.carousel{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.carousel_heading{
+    text-align: center;
+}
+.marquee {
+    display: flex;
+    animation: marquee 32s linear infinite;
+  }
+  .marquee_style{
+    display: flex;
+    flex-shrink: 0;
+    gap: 0.1rem;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 100%;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-190%);
+    }
+    
+  }
+
+  .marquee img {
+    display: inline-block;
+    height: 100px;
+    margin-right: 20px;
+    width: 146px;
+    height: 73px;
+  }

@@ -1,0 +1,53 @@
+.outerbox {
+    width: 1320px;
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 16px;
+}
+
+.work {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: -40px;
+
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.text h2 {
+    color: #ee3425;
+}
+.count {
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 40px;
+    line-height: 1.2;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+h4{
+    font-family: Ubuntu,sans-serif;
+    font-size: 16px;
+}
+.curve {
+    background: #fffef2;
+}
+.round {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 18px;
+    border-bottom-right-radius: 100% 150%;
+    border-bottom-left-radius: 100% 150%;
+}

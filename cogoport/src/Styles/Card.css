@@ -1,0 +1,60 @@
+.styles_card_icon__Jt_3H {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.styles_card__hpklv {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 184px;
+    height: 160px;
+    padding: 10px 7px;
+    margin: 10px;
+    background: #fff;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(169,188,218,.65);
+}
+.styles_name__OTyeY {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 1.3em;
+    text-align: center;
+}
+.styles_add_more__5vDZp {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-weight: 700;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+.styles_find__zT3eI {
+    margin-right: 4px;
+}
+a{
+    text-decoration: none;
+    color:red;
+    cursor: pointer;
+
+}
+h4{
+    margin-bottom: 1em;
+    color:black;
+    font-family: 'Ubuntu',sans-serif;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.card_svg{
+    fill:none;
+    width: 5em;
+    height: 5em;
+}

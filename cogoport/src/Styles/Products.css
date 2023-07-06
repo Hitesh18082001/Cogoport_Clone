@@ -1,0 +1,82 @@
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    background: #fffef2;
+}
+.innercontainer{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+}
+.textcontainer
+{
+    flex: 1 1;
+}
+.imagecontainer{
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end;
+}
+h2{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: "Ubuntu",sans-serif;
+    color: black;
+}
+.products{
+    width: 1200;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+
+}
+.heading{
+    text-align: center;
+}
+h3{
+    font-size: 28px;
+    line-height: 1.2;
+    margin-top: 0px;
+    margin-bottom: 1em;
+    font-family: "ubuntu",sans-serif;
+    color:black;
+}
+.outerbox{
+    display: flex;
+    justify-content: space-between;
+    background: #fffef2;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin: 14px 0;
+}
+.element_heading{
+    width: 300px;
+    margin-right: 50px;
+    font-size: 24px;
+    color: #000;
+
+}
+h4{
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-family: 'Ubuntu',sans-serif;
+    color: #000;
+}
+

@@ -1,0 +1,42 @@
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+    color: black;
+    margin-left: 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Ubuntu,sans-serif;
+}
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    padding: 8px 16px;
+    font-weight: 500;
+    background: #fbdc00;
+
+}
+.styles_register_container__Bu59g{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    font-family: var(--font-family-heading);
+    list-style-type: none;
+    margin: 14px 200px 14px 125px;
+    padding: 0px 10px 0px 40px;
+    cursor: pointer;
+}
+.styles_register_signup__eTPFU {
+    width: 100%;
+    color: #fff;
+    background-color: #ee3425;
+    border-radius: 8px;
+    border-width: 0px;
+    padding: 4px 16px;
+    margin-left: 10px;
+}
