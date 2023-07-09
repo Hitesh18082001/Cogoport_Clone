@@ -21,6 +21,7 @@ export const Products = () => {
           <div className='column'>
             <div className='row'>
               <h4 className='element_heading'>End to End Cross Logistics </h4>
+             <div className='card_special_container'></div>
               <Card/>
               <Card/>
               <Card/>

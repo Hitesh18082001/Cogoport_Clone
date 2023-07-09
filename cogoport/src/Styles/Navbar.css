@@ -20,12 +20,17 @@ nav{
     background: #fbdc00;
 
 }
+#navbarNav a{
+    font-weight: bold;
+    font-family: "Ubuntu",sans-serif;
+
+}
 .styles_register_container__Bu59g{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: auto;
-    font-family: var(--font-family-heading);
+    font-family: 'Ubuntu',sans-serif;
     list-style-type: none;
     margin: 14px 200px 14px 125px;
     padding: 0px 10px 0px 40px;

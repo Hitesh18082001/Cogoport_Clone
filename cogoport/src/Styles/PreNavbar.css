@@ -33,7 +33,7 @@ img {
     font-size: 14px;
     /* line-height: 1.5; */
 }
-a{
+.book_today a{
     color: #fbdc22;
     margin-left: 6px;
     font-family: "PT-sans",sans-serif;

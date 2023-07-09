@@ -1,32 +1,34 @@
-.outer_box{
+.getstart_outer_box{
     margin-bottom: 50px;
-}
-.main_box{
-    width: 1200px;
     display: flex;
-    align-items: center;
-    /* padding: 16px 100px; */
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
 }
-.left_box{
-    flex: 1 1;
+.getstart_main_box{
+   
+    display: flex;
+ 
+    flex-direction: row;
 }
-.link_box{
-    text-decoration: none;
+.getstart_left_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
 }
-.gif_box{
+.getstart_left_box h2{
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+}
+
+.get_start_gif_box{
     display: flex;
     flex: 1 1;
     justify-content: flex-end;
-    padding-right: 100px;
 }
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
-.link_box{
+
+.getstart_link_box{
     display: inline-block;
+    max-width: 200px;
     height: 40px;
     padding: 8px 42px;
     margin-top: 20px;
@@ -37,27 +39,48 @@ img {
     cursor: pointer;
     background-color: red;
     border-radius: 8px;
-}
-.styles_about_image__p8EBEs{
-    display: block;
-    -o-object-fit: contain;
-    object-fit: contain;
-    animation-name: styles_bounce__6VcwD;
-    animation-duration: 4s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    width: 280px;
-    aspect-ratio: auto 280 / 360;
-    height: 360px;
-}
-@keyframes styles_bounce_6VcwD{
 
-0% {
-    transform: translateY(0);
 }
+.getstart_link_box:hover{
+    text-decoration:none;
+}
+.getstart_image{
+    animation: moveUpDown 2s ease-in-out infinite alternate;
+}
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
 
-50% {
-    transform: translateY(-10px);
-}
+    100% {
+        transform: translateY(-10px);
+    }
 }
 
+@media (max-width: 768px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .getstart_main_box{
+        flex-direction: column-reverse;
+    }
+    .getstart_left_box
+    {
+        padding-left: 20px;
+        margin-right: 0px;
+    }
+    .getstart_image{
+        width: 90%;
+    }
+    .getstart_left_box h2{
+        font-size: 24px;
+    }
+    .getstart_link_box{
+        width: 100%;
+    }
+
+  }

@@ -101,3 +101,15 @@
     margin: 0 auto; /* Center horizontally */
   }
   
+  @media (max-width: 768px) {
+    .outer_card{
+        flex-direction: column;
+    }
+    .inner_card {
+        width: 100%;
+    }
+    .inner_box_blog{
+        width: 100%;
+    }
+
+}

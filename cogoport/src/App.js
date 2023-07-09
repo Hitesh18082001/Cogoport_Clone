@@ -12,6 +12,10 @@ import Getstart from './Components/Getstart';
 import ThumbnailImage from './Components/ThumbnailImage';
 import Blog from './Components/Blog';
 import Footer from './Components/Footer';
+import Postfooter from './Components/Postfooter';
+import Tour from './Components/Tour';
+import Demo from './Components/Demo'
+import Bottom from './Components/Bottom';
 function App() {
   return (
     <div className="App">
@@ -23,11 +27,15 @@ function App() {
     <Carousel/>
     <Highlight/>
     <Working/>
+    <Demo/>
     <Industries/>
     <Getstart/>
     <ThumbnailImage/>
     <Blog/>
     <Footer/>
+    <Postfooter/>
+    <Tour/>
+    <Bottom/>
     </div>
   );
 }
