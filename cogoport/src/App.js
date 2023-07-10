@@ -19,6 +19,7 @@ import Bottom from './Components/Bottom';
 function App() {
   return (
     <div className="App">
+ 
     <PreNavbar/>
     <Navbar/>
     <Banner/>
@@ -36,6 +37,7 @@ function App() {
     <Postfooter/>
     <Tour/>
     <Bottom/>
+
     </div>
   );
 }

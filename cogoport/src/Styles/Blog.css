@@ -102,6 +102,9 @@
   }
   
   @media (max-width: 768px) {
+    .outer_box{
+        width: 100%;
+    }
     .outer_card{
         flex-direction: column;
     }

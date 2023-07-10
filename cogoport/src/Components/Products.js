@@ -21,37 +21,46 @@ export const Products = () => {
           <div className='column'>
             <div className='row'>
               <h4 className='element_heading'>End to End Cross Logistics </h4>
-             <div className='card_special_container'></div>
+             <div className='card_special_container'>
               <Card/>
               <Card/>
               <Card/>
               <Card/>
             </div>
+            </div>
             <div className='row'>
               <h4 className='element_heading'>Domestic Logistics </h4>
+              <div className='card_special_container'>
               <Card/>
               <Card/>
+            </div>
            
             </div>
             <div className='row'>
               <h4 className='element_heading'>Supply chain Solutions </h4>
+              <div className='card_special_container'>
               <Card/>
               <Card/>
               <Card/>
               <Card/>
             </div>
+            </div>
             <div className='row'>
               <h4 className='element_heading'>Financial Services </h4>
+              <div className='card_special_container'>
               <Card/>
               <Card/>
+            </div>
               
             </div>
             <div className='row'>
               <h4 className='element_heading'>Trade Management Solutions </h4>
+              <div className='card_special_container'>
               <Card/>
               <Card/>
               <Card/>
               <Card/>
+            </div>
             </div>
           </div>
         </div>

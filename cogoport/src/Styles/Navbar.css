@@ -4,7 +4,7 @@
     margin-left: 20px;
     border-radius: 4px;
     font-size: 14px;
-    font-family: Ubuntu,sans-serif;
+    font-family: 'Ubuntu',sans-serif;
 }
 nav{
     position: sticky;
@@ -23,9 +23,10 @@ nav{
 #navbarNav a{
     font-weight: bold;
     font-family: "Ubuntu",sans-serif;
+    line-height: 1.5;
 
 }
-.styles_register_container__Bu59g{
+.navbar_box_1{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,6 +36,13 @@ nav{
     margin: 14px 200px 14px 125px;
     padding: 0px 10px 0px 40px;
     cursor: pointer;
+}
+.navbar_box_2 svg{
+    width: 25px;
+    height:25px;
+}
+.navbar_box_2{
+    font-weight: 500;
 }
 .styles_register_signup__eTPFU {
     width: 100%;
