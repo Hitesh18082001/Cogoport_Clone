@@ -3,8 +3,20 @@ import '../Styles/Navbar.css';
 import logo from '../Logo/cogoportlogo.svg';
 
 const Navbar = () => {
+    window.addEventListener('scroll', function() {
+        var navbar = document.getElementById('navbar');
+        if (this.window.scrollY > 5) {
+          navbar.classList.add('fixed-top');
+          navbar.style.background='white';
+        } else {
+          navbar.classList.remove('fixed-top');
+          navbar.style.background='#fbdc00';
+        }
+      });
   return (
-    <nav className="navbar navbar-expand-lg navbar-light" style={{ background: '#fbdc00' }}>
+
+   
+    <nav className="navbar navbar-expand-lg navbar-light" id='navbar' style={{ background: '#fbdc00' }}>
             <a style={{marginLeft:'120px'}}className="navbar-brand" href="#home">
                 <img src={logo} alt="Logo" className="logo" />
             </a>
