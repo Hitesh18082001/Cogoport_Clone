@@ -1,8 +1,9 @@
-.outer_Style{
+.outer_Style {
     margin-bottom: 50px;
     background-color: #fbdc00;
 }
-.inner_style{
+
+.inner_style {
     width: 1200px;
     position: relative;
     display: flex;
@@ -11,38 +12,46 @@
     margin-left: auto;
     margin-right: auto;
     padding: 16px;
-    
+
 }
-.text_style{
+
+.text_style {
     padding: 25px 0;
 }
-.text_style h3{
+
+.text_style h3 {
     margin-bottom: 10px;
     font-size: 28px;
     line-height: 1.2;
     margin-top: 0;
     color: black;
-    font-family: "Ubuntu",sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
-.outer_style a{
+
+.outer_style a {
     color: red;
 
 }
-.button_style{
+
+.button_style {
     border: 1px solid red;
     min-width: 72px;
     height: 36px;
     padding: 4px 16px;
-    color:white;
+    color: white;
     background-color: red;
 }
-.button_text_style{
+
+.button_text_style {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 @media (max-width: 768px) {
-    html,body{
+
+    html,
+    body {
         width: 100%;
         height: 100%;
         margin: 0;
@@ -50,6 +59,7 @@
         overflow-x: hidden;
 
     }
+
     .inner_style {
         width: auto;
         flex-direction: column;
@@ -57,8 +67,9 @@
         margin-right: auto;
         align-items: flex-start;
     }
-    .button_style{
+
+    .button_style {
         padding: 0;
     }
-  
+
 }

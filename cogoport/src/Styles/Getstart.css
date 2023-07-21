@@ -1,32 +1,35 @@
-.getstart_outer_box{
+.getstart_outer_box {
     margin-bottom: 32px;
     display: flex;
     justify-content: center;
 }
-.getstart_main_box{
-   
+
+.getstart_main_box {
+
     display: flex;
- 
+
     flex-direction: row;
 }
-.getstart_left_box{
+
+.getstart_left_box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-right: 100px;
 }
-.getstart_left_box h2{
-    font-family: "Ubuntu",sans-serif;
+
+.getstart_left_box h2 {
+    font-family: "Ubuntu", sans-serif;
     font-weight: bold;
 }
 
-.get_start_gif_box{
+.get_start_gif_box {
     display: flex;
     flex: 1 1;
     justify-content: flex-end;
 }
 
-.getstart_link_box{
+.getstart_link_box {
     display: inline-block;
     max-width: 200px;
     height: 40px;
@@ -41,12 +44,15 @@
     border-radius: 8px;
 
 }
-.getstart_link_box:hover{
-    text-decoration:none;
+
+.getstart_link_box:hover {
+    text-decoration: none;
 }
-.getstart_image{
+
+.getstart_image {
     animation: moveUpDown 2s ease-in-out infinite alternate;
 }
+
 @keyframes moveUpDown {
     0% {
         transform: translateY(0);
@@ -58,38 +64,45 @@
 }
 
 @media (max-width: 768px) {
-    html,body{
+
+    html,
+    body {
         width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
         overflow-x: hidden;
     }
-    .getstart_main_box{
+
+    .getstart_main_box {
         display: flex;
         flex-direction: column-reverse;
-        width: 100%!important;
-        padding-right: 16px!important;
-        padding-left: 16px!important;
+        width: 100% !important;
+        padding-right: 16px !important;
+        padding-left: 16px !important;
     }
-    h2{
+
+    h2 {
         font-size: 24px;
 
     }
-    .getstart_left_box
-    {
+
+    .getstart_left_box {
         width: 100%;
         padding-left: 20px;
         margin-right: 0px;
     }
-    .getstart_image{
+
+    .getstart_image {
         width: 90%;
     }
-    .getstart_left_box h2{
+
+    .getstart_left_box h2 {
         font-size: 24px;
     }
-    .getstart_link_box{
+
+    .getstart_link_box {
         max-width: 100%;
     }
 
-  }
+}

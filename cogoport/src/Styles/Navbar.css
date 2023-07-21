@@ -4,12 +4,14 @@
     margin-left: 20px;
     border-radius: 4px;
     font-size: 14px;
-    font-family: 'Ubuntu',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
-.fixed-top{
+
+.fixed-top {
     position: sticky;
 }
-nav{
+
+nav {
     position: sticky;
     top: 0;
     left: 0;
@@ -23,30 +25,35 @@ nav{
     background: #fbdc00;
 
 }
-#navbarNav a{
+
+#navbarNav a {
     font-weight: bold;
-    font-family: "Ubuntu",sans-serif;
+    font-family: "Ubuntu", sans-serif;
     line-height: 1.5;
 
 }
-.navbar_box_1{
+
+.navbar_box_1 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: auto;
-    font-family: 'Ubuntu',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     list-style-type: none;
     margin: 14px 200px 14px 125px;
     padding: 0px 10px 0px 40px;
     cursor: pointer;
 }
-.navbar_box_2 svg{
+
+.navbar_box_2 svg {
     width: 25px;
-    height:25px;
+    height: 25px;
 }
-.navbar_box_2{
+
+.navbar_box_2 {
     font-weight: 500;
 }
+
 .styles_register_signup__eTPFU {
     width: 100%;
     color: #fff;

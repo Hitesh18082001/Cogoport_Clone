@@ -1,75 +1,78 @@
 .post-footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #fbdc00;
-    padding: 20px;
-  }
-  
-  .post-footer-column {
-    width: calc(100% / 6);
-  }
-  
-  .post-footer h3 {
-    padding-left: 50px;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.5;
-    text-decoration: underline;
-  }
-  
-  .post-footer p {
-    font-weight: 400;
-    color: #000;
-    padding-left: 50px;
-    font-size: 14px;
-  }
-  .post-footer p:hover {
-    text-decoration: underline;
-  }
-
-  .postfooter_responsive{
-
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    /* justify-content: space-between; */
-    background-color: #fbdc00;
-    width: 100%;
-    /* margin-top: 20px; */
-    
+  display: flex;
+  justify-content: space-between;
+  background-color: #fbdc00;
+  padding: 20px;
 }
 
-.postfooter_responsive_card{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-   
-    width: 100%;
-    margin-bottom: 2px;
-    margin-top: 20px;
-    border-bottom: 0.5px solid gray;
+.post-footer-column {
+  width: calc(100% / 6);
 }
 
-.postfooter_responsive_text_heading{
+.post-footer h3 {
+  padding-left: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: underline;
+}
+
+.post-footer p {
+  font-weight: 400;
+  color: #000;
+  padding-left: 50px;
+  font-size: 14px;
+}
+
+.post-footer p:hover {
+  text-decoration: underline;
+}
+
+.postfooter_responsive {
+
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+  background-color: #fbdc00;
+  width: 100%;
+  /* margin-top: 20px; */
+
+}
+
+.postfooter_responsive_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+  margin-bottom: 2px;
+  margin-top: 20px;
+  border-bottom: 0.5px solid gray;
+}
+
+.postfooter_responsive_text_heading {
   padding-left: 20px;
 }
 
-.image-style{
+.image-style {
   padding-right: 20px;
 }
 
 
 @media (max-width: 768px) {
-  
-  .post-footer{
-      display: none;
+
+  .post-footer {
+    display: none;
   }
-  .postfooter_responsive{
-      display: flex;
-      flex-direction: column;
+
+  .postfooter_responsive {
+    display: flex;
+    flex-direction: column;
   }
-  .post-footer{
-      padding-left: 0px;
-      padding-right: 0px;
+
+  .post-footer {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }

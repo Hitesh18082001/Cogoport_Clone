@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div class="styles_main_container__pPP4G">
       <div class="styles_about_container__yaghD">
-        <img alt="subscribe Letter image" loading="lazy" width="200" height="163" decoding="async" data-nimg="1" src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fcogoport-subscribe.png&w=256&q=75" style={{color: 'transparent'}}/>
+        <img alt="subscribe Letter image" loading="lazy" width="200" height="163" decoding="async" data-nimg="1" src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fcogoport-subscribe.png&w=256&q=75" style={{ color: 'transparent' }} />
       </div>
       <div class="styles_subscribe_container__yNwAU">
         <h3 class="styles_heading__IlKbp">Subscribe to our newsletter now!</h3>
@@ -12,7 +12,7 @@ const Footer = () => {
         <div class="styles_input_container__LNJZN">
           <form class="styles_border__7yY6A">
             <div>
-              <input type="email" class="enter_email_container" placeholder="Enter your email here" required="" value=""/>
+              <input type="email" class="enter_email_container" placeholder="Enter your email here" required="" value="" />
             </div>
             <div>
               <button class="subscribe_button_style" type="submit">Subscribe

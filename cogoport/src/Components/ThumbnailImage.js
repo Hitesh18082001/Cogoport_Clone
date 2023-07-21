@@ -2,8 +2,8 @@ import React from 'react';
 import '../Styles/ThumbnailImage.css';
 
 const ThumbnailImage = () => {
-  return (
-    <div className='thumbnailimage_main_container'>
+    return (
+        <div className='thumbnailimage_main_container'>
             <div className='thumbnailimage_video_container'>
                 <div className="thumbnailimage_image_container">
                     <img alt="About Us - Cogoport" loading="lazy" width="1232" height="450" decoding="async" data-nimg="1" class="thumbnailimage_video_link" srcset="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fhomepage-video.png&amp;w=1920&amp;q=75 1x, https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fhomepage-video.png&amp;w=3840&amp;q=75 2x" src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fhomepage-video.png&amp;w=3840&amp;q=75" style={{ color: "transparent" }} />
@@ -28,7 +28,7 @@ const ThumbnailImage = () => {
                 </div>
             </div>
         </div>
-  );
+    );
 };
 
 export default ThumbnailImage;

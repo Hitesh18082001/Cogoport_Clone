@@ -74,15 +74,15 @@
   line-height: 1.2;
 }
 
-.thumbnailimage_text_box_container h3{
+.thumbnailimage_text_box_container h3 {
   margin-bottom: 10px;
-  font-family: "Ubuntu",sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   color: white;
 }
 
-.thumbnailimage_text_box_container_know{
-  font-family: "PT Sans",sans-serif;
+.thumbnailimage_text_box_container_know {
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
 }
 
@@ -90,10 +90,10 @@
 
   .thumbnailimage_text_container {
 
-      width: 100%;
+    width: 100%;
   }
-  .thumbnailimage_text_box_container h3{
-      font-size: 20px;
+
+  .thumbnailimage_text_box_container h3 {
+    font-size: 20px;
   }
 }
-

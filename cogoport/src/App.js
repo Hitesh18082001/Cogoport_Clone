@@ -19,24 +19,24 @@ import Bottom from './Components/Bottom';
 function App() {
   return (
     <div className="App">
- 
-    <PreNavbar/>
-    <Navbar/>
-    <Banner/>
-    <Info/>
-    <Products/>
-    <Carousel/>
-    <Highlight/>
-    <Working/>
-    <Demo/>
-    <Industries/>
-    <Getstart/>
-    <ThumbnailImage/>
-    <Blog/>
-    <Footer/>
-    <Postfooter/>
-    <Tour/>
-    <Bottom/>
+
+      <PreNavbar />
+      <Navbar />
+      <Banner />
+      <Info />
+      <Products />
+      <Carousel />
+      <Highlight />
+      <Working />
+      <Demo />
+      <Industries />
+      <Getstart />
+      <ThumbnailImage />
+      <Blog />
+      <Footer />
+      <Postfooter />
+      <Tour />
+      <Bottom />
 
     </div>
   );

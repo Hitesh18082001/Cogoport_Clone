@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .styles_card__hpklv {
     position: relative;
     display: flex;
@@ -15,14 +16,16 @@
     background: #fff;
     border: 1.5px solid transparent;
     border-radius: 10px;
-    box-shadow: 0 1px 6px rgba(169,188,218,.65);
+    box-shadow: 0 1px 6px rgba(169, 188, 218, .65);
 }
+
 .styles_name__OTyeY {
     margin-top: 5px;
     font-size: 16px;
     line-height: 1.3em;
     text-align: center;
 }
+
 .styles_add_more__5vDZp {
     position: absolute;
     bottom: 0;
@@ -33,19 +36,22 @@
     color: var(--color-primary);
     cursor: pointer;
 }
+
 .styles_find__zT3eI {
     margin-right: 4px;
 }
-a{
+
+a {
     text-decoration: none;
-    color:red;
+    color: red;
     cursor: pointer;
 
 }
-h4{
+
+h4 {
     margin-bottom: 1em;
-    color:black;
-    font-family: 'Ubuntu',sans-serif;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
     display: block;
     margin-block-start: 1.33em;
     margin-block-end: 1.33em;
@@ -53,8 +59,9 @@ h4{
     margin-inline-end: 0px;
     font-weight: bold;
 }
-.card_svg{
-    fill:none;
+
+.card_svg {
+    fill: none;
     width: 5em;
     height: 5em;
 }
